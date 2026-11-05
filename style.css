@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #142b43;
+    line-height: 1.7;
+}
+
+header {
+    background: #10263d;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+header p {
+    color: #d5b56a;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
+
+nav {
+    background: white;
+    padding: 18px 10px;
+    text-align: center;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+nav a {
+    display: inline-block;
+    color: #142b43;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #c5a45e;
+}
+
+main {
+    min-height: 420px;
+    background: linear-gradient(135deg, #10263d, #254866);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+main p:first-child {
+    color: #d5b56a;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-size: 38px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+main p {
+    color: #e0e5eb;
+    margin-bottom: 30px;
+}
+
+.main-button {
+    display: inline-block;
+    background: #c5a45e;
+    color: #10263d;
+    padding: 13px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+section {
+    text-align: center;
+    padding: 65px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    color: #10263d;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+section p {
+    color: #687787;
+}
+
+footer {
+    background: #10263d;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+footer h2 {
+    color: #d5b56a;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    nav a {
+        margin: 5px 6px;
+        font-size: 12px;
+    }
+
+    main {
+        padding: 75px 15px;
+    }
+
+    main h2 {
+        font-size: 28px;
+    }
+}
